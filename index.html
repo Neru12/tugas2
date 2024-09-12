@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+
+    <!-- Akun -->
+    <form action="#">
+        <fieldset>
+            <legend class="nama">Akun</legend>
+            <table>
+                <tr>
+                    <td><label for="usname">Username: </label></td>
+                    <td><input type="text" id="usname" name="Username"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass1">Password: </label></td>
+                    <td><input type="password" id="pass1" name="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass2">Konfirmasi Password:</label></td>
+                    <td><input type="password" id="pass2" name="konfirmasi_password"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <!-- Akun END -->
+
+        <!-- DATA -->
+        <fieldset>
+            <legend>Data</legend>
+            <table>
+                <tr>
+                    <td><label for="name">Nama:</label></td>
+                    <td><input type="text" id="name" name="Nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Jenis Kelamin: </label></td>
+                    <td><input type="radio" name="gender" id="lk" value="cowo"> <label for="lk">Pria</label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="radio" name="gender" id="pr" value="cewe"> <label for="pr">Perempuan</label></td>
+                </tr>
+                <tr>
+                    <td><label for="hobby">Informasi Pribadi:</label></td>
+                    <td><input type="checkbox" name="hobby" id="sport"> <label for="sport">Basket</label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="hobby" id="Esport"> <label for="Esport">Esport</label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="hobby" id="travel"> <label for="travel">Traveling</label></td>
+                </tr>
+                <tr>
+                    <td><label for="Alamat">Alamat:</label></td>
+                    <td><textarea name="Alamat" id="Alamat" cols="35" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="Jurusan">Jurusan:</label></td>
+                    <td>
+                        <select name="Jurusan" id="Jurusan">
+                            <option value="TI">Teknologi Informasi</option>
+                            <option value="ilkom">Ilmu Komputer</option>
+                        </select>
+                    </td>
+                </tr>
+                
+            </table>
+        </fieldset>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" class="button submit" value="submit"> 
+                <input type="reset" class="button reset" value="reset">
+            </td>
+        </tr>
+        <!-- DATA END -->
+    </form>
+
+</body>
+</html>

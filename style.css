@@ -1,0 +1,64 @@
+table {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+form {
+    padding: 20px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Reset CSS */
+input[type="submit"], input[type="reset"] {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    transition: background 0.3s, transform 0.3s;
+}
+
+/* Tombol Daftar */
+.button.submit {
+    background-color: #4caf50;
+}
+
+.button.submit:hover {
+    background-color: #4caf50;
+    transform: scale(1.05);
+}
+
+.button.submit:active {
+    background-color: #4caf50;
+    transform: scale(0.95);
+}
+
+/* Tombol Reset */
+.button.reset {
+    background-color: #c62828;
+}
+
+.button.reset:hover {
+    background-color: #c62828;
+    transform: scale(1.05);
+}
+
+.button.reset:active {
+    background-color: #c62828;
+    transform: scale(0.95);
+}
+
+/* Styling untuk tabel dan sel */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
